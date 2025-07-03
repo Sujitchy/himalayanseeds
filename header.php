@@ -18,20 +18,15 @@
         <div class="phone"><span>📞</span> +977-1-00000000</div>
         <div class="email"><span>📧</span> himalayanseeds@gmail.com</div>
       </div>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-        <a href="#"><i class="fab fa-google-plus-g"></i></a>
-        <a href="#"><i class="fab fa-youtube"></i></a>
-      </div>
     </div>
 
     <nav class="main-nav">
       <ul>
+
+      <!-- <?php wp_nav_menu(); ?> -->
         <li><a href="<?php echo site_url(); ?>">Home</a></li>
         <li><a href="<?php echo home_url('/about-us'); ?>">About Us</a></li>
-        <li><a href="#">Our Products</a></li>
+        <li><a href="<?php echo home_url('/our-products'); ?>">Our Products</a></li>
         <li><a href="#">Information</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact Us</a></li>

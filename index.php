@@ -18,7 +18,7 @@
     <h2 class="section-title">Himalayan Seeds</h2>
     <div class="underline"></div>
     <p>
-      Himalayan Seeds was formally registered under the Company Act of 1996 at the Company Registrar Office on 15 June 1999 (1st Asar 2056 BS). The company was established and become operated as a result of the investment in shares by more than 55 shareholders. The formation of Himalayan Seeds is a central part of the seed marketing strategy that aims to promote the seed industry in Nepal. It is based on a concept of strengthening the foundations of the Nepal seed trade by establishing a quality product based on a firm foundation of high-quality Breeder’s and subsequent generation seeds.
+      Himalayan Seeds was formally registered under the Company Act of 1996 at the Company Registrar Office on 15 June 1999 (1st Asar 2056 BS). The company was established and become operated as a result of the investment in shares by more than 55 shareholders. The formation of Himalayan Seeds is a central part of the seed marketing strategy that aims to promote the seed industry in Nepal. It is based on a concept of strengthening the foundations of the Nepal seed trade by establishing a quality product based on a firm foundation of high-quality Breeder’s and ....
     </p>
     <a href="<?php echo home_url('/about'); ?>" class="about-btn">More…</a>
   </div>
