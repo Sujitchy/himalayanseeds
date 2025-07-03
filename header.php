@@ -15,8 +15,8 @@
         <h1 class="site-title"><?php bloginfo('name'); ?></h1>
       </div>
       <div class="contact-info">
-        <div class="phone"><span>📞 Call us:</span> +977-1-00000000</div>
-        <div class="email"><span>📧 Email:</span> himalayanseeds@gmail.com</div>
+        <div class="phone"><span>📞</span> +977-1-00000000</div>
+        <div class="email"><span>📧</span> himalayanseeds@gmail.com</div>
       </div>
       <div class="social-icons">
         <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -30,7 +30,7 @@
     <nav class="main-nav">
       <ul>
         <li><a href="<?php echo site_url(); ?>">Home</a></li>
-        <li><a href="#">About Us</a></li>
+        <li><a href="<?php echo home_url('/about-us'); ?>">About Us</a></li>
         <li><a href="#">Our Products</a></li>
         <li><a href="#">Information</a></li>
         <li><a href="#">Gallery</a></li>

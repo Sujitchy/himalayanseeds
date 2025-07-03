@@ -17,7 +17,7 @@ Version: 1.0
 
 :root {
   --color-bg: #ffffff;
-  --color-text: #ffffff;
+  --color-text: #242121;
   --color-accent: #ffffff; /* LimeGreen */
   --color-white: #ffffff;
   --color-dark: #13760a;
@@ -126,6 +126,12 @@ a {
   font-size: 14px;
   text-align: right;
   color: var(--color-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: auto;
+  padding: var(--spacing-xs) 0;
+
 }
 
 .contact-info span {
@@ -135,17 +141,6 @@ a {
 .contact-info .email {
   color: var(--color-dark);
   text-shadow: 1px 1px 2px var(--color-light);
-}
-
-.social-icons a {
-  margin: 0 var(--spacing-xs);
-  color: var(--color-dark);
-  font-size: 1.2em;
-  transition: color var(--transition);
-}
-
-.social-icons a:hover {
-  color: #28a745; /* highlight on hover */
 }
 
 /* ========== Navigation Styles ========== */
@@ -187,6 +182,101 @@ a {
   margin: 0 auto;
   padding: var(--spacing-md);
 }
+
+/* ========== About Us Page ========== */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background-color: var(--color-light);
+  align-items: flex-start;
+}
+
+.about-left {
+  flex: 1 1 60%;
+  max-width: 60%;
+}
+
+.about-right {
+  flex: 1 1 35%;
+  max-width: 35%;
+}
+
+.section-title {
+  color: var(--color-dark);
+  font-size: var(--font-size-title);
+  margin-bottom: var(--spacing-xs);
+  font-weight: bold;
+}
+
+.underline {
+  width: 80%;
+  max-width: 300px;
+  height: 2px;
+  background-color: var(--color-dark);
+  margin-bottom: var(--spacing-md);
+}
+
+.about-left p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.about-right img {
+  width: 100%;
+  border-radius: var(--radius);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-btn {
+  display: inline-block;
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-sm) var(--spacing-md);
+  border: 1px solid var(--color-dark);
+  color: var(--color-dark);
+  border-radius: var(--radius);
+  transition: background-color var(--transition), color var(--transition);
+}
+
+.about-btn:hover {
+  background-color: var(--color-dark);
+  color: var(--color-white);
+}
+/* ========== Page Content ========== */
+body {
+  font-family: var(--font-main);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+.page-header {
+  /* background-color: var(--color-dark); */
+  color: var(--color-white);
+  padding: var(--spacing-lg) 0;
+  text-align: center;
+}
+
+.page-header h1 {
+  font-size: var(--font-size-title);
+  margin-bottom: var(--spacing-xs);
+}
+
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: var(--spacing-lg);
+  background-color: var(--color-light);
+  padding: var(--spacing-lg);
+  background-color: var(--color-light);
+  margin-bottom: var(--spacing-lg);
+}
+
 
 /* ========== Hero Section ========== */
 .hero {
@@ -364,15 +454,19 @@ a {
 }
 
 .footer-contact li,
-.footer-links li {
+.footer-links li  {
   margin-bottom: var(--spacing-xs);
   display: flex;
   align-items: center;
   gap: var(--spacing-sm);
+  color: var(--color-text);
 }
 
-.footer-links a {
+h1, h2, h3 {
   color: var(--color-dark);
+}
+.footer-links a {
+  color: var(--color-text);
   transition: color var(--transition);
 }
 
@@ -394,7 +488,7 @@ a {
   text-align: center;
   background-color: #13760a; /* Dark Green */
   padding: var(--spacing-sm);
-  color: var(--color-text);
+  color: var(--color-accent);
   font-size: 14px;
   border-top: 1px solid var(--color-accent);
   margin-top: var(--spacing-md);
