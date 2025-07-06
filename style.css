@@ -7,16 +7,12 @@ Version: 1.0
 Tags: custom-theme, blog, responsive, minimal, modern, agronomy, agriculture, seeds
 License: GNU General Public.
 */
-
-/*
-Theme Name: Himalayan Seeds
-Author: Your Name
-Description: A clean and modern custom WordPress theme for agriculture websites.
-Version: 1.0
-*/
+/* ========== Base Styles ========== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 :root {
   --color-bg: #ffffff;
+  --color-bg-secondary: #adffaa;
   --color-text: #242121;
   --color-accent: #ffffff; /* LimeGreen */
   --color-white: #ffffff;
@@ -68,7 +64,7 @@ a {
 .custom-slider {
   position: relative;
   overflow: hidden;
-  height: 400px;
+  height: 500px;
 }
 
 .custom-slider .slide {
@@ -189,7 +185,7 @@ a {
   flex-wrap: wrap;
   gap: var(--spacing-lg);
   padding: var(--spacing-lg);
-  background-color: var(--color-light);
+  background-color: var(--color-bg-secondary);
   align-items: flex-start;
 }
 
@@ -641,7 +637,7 @@ body {
 
 /* ========== Footer Styles ========== */
 .site-footer {
-  background-color: var(--color-light);
+  background-color: var(--color-bg-secondary);
   color: var(--color-dark);
   font-size: 15px;
   /* padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md); */

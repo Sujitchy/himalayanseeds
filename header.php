@@ -32,7 +32,7 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
       <div class="date-time">
-        <?php echo date('d F Y | H:i:s'); ?>
+        <?php echo do_shortcode('[ndu_today_date]');?>
       </div>
     </nav>
   </header>
