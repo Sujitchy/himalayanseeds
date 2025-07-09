@@ -22,11 +22,10 @@
 
     <nav class="main-nav">
       <ul>
-
-      <!-- <?php wp_nav_menu(); ?> -->
-        <li><a href="<?php echo site_url(); ?>">Home</a></li>
+      <?php wp_nav_menu(); ?>
+        <!-- <li><a href="<?php echo site_url(); ?>">Home</a></li>
         <li><a href="<?php echo home_url('/about-us'); ?>">About Us</a></li>
-        <li><a href="<?php echo home_url('/our-products'); ?>">Our Products</a></li>
+        <li><a href="<?php echo home_url('/our-products'); ?>">Our Products</a></li> -->
         <li><a href="#">Information</a></li>
         <li><a href="#">Gallery</a></li>
         <li><a href="#">Contact Us</a></li>

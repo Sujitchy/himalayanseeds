@@ -14,7 +14,7 @@
 
 
 <div class="about-container">
-  <div class="about-left">
+  <div class="about-left"> 
     <h2 class="section-title">Himalayan Seeds</h2>
     <div class="underline"></div>
     <p>
@@ -28,12 +28,6 @@
   </div>
 </div>
 
-
-<?php
-/*
-Template Name: Product Brand
-*/
-get_header(); ?>
 
 <section class="product-brand-section">
   <div class="brand-heading">
@@ -50,35 +44,35 @@ get_header(); ?>
 
     <!-- Product 1 -->
     <div class="product-card">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tomato-srijana.webp" alt="Tomato">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tomato-srijana.jpeg" alt="Tomato">
       <h3>Tomato: Srijana F1</h3>
       <p>High yielding indeterminate variety resistant to bacterial wilt</p>
     </div>
 
     <!-- Product 2 -->
     <div class="product-card">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cabbage-futoski.webp" alt="Cabbage">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/cabbage-futoski.jpeg" alt="Cabbage">
       <h3>Cabbage: Futoski F1</h3>
       <p>Excellent heat tolerant new F1 hybrid imported from Korea</p>
     </div>
 
     <!-- Product 3 -->
     <div class="product-card">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maize-khumal.webp" alt="Maize Khumal">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maize-khumal.png" alt="Maize Khumal">
       <h3>Maize: Khumal Hybrid 2</h3>
       <p>First commercialized hybrid sweet & suitable for roasted cob</p>
     </div>
 
     <!-- Product 4 -->
     <div class="product-card">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maize-rampur.webp" alt="Rampur Maize">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/maize-rampur.jpg" alt="Rampur Maize">
       <h3>Maize: Rampur Hybrid 10</h3>
       <p>Excellent heat tolerant new F1 hybrid developed in Nepal</p>
     </div>
 
     <!-- Product 5 -->
     <div class="product-card">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/rayo-marpha.webp" alt="Rayo">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/images/rayo-marpha.jpeg" alt="Rayo">
       <h3>Rayo: Marpha Chaudapaat</h3>
       <p>Late bolting, very popular for its tender and high flavored leaves</p>
     </div>
@@ -89,12 +83,10 @@ get_header(); ?>
       <h3>Radish: Mino Early</h3>
       
       <p>Medium early popular variety with excellent quality root shape & weight</p>
-    </div>
+    </div>   
 
   </div>
 </section>
-
-<?php get_footer(); ?>
 
 
 <!-- <section class="hero">
@@ -118,7 +110,6 @@ get_header(); ?>
     </div>
 
     <aside class="sidebar">
-        <?php wp_nav_menu(); ?>
       <?php get_search_form(); ?>
       <div class="widget">
         <h3>Recent Posts</h3>
