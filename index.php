@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+
 <div class="custom-slider">
   <div class="slide active">
     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slide1.jpg" alt="Slide 1">
@@ -12,7 +13,7 @@
   </div>
 </div>
 
-
+     
 <div class="about-container">
   <div class="about-left"> 
     <h2 class="section-title">Himalayan Seeds</h2>
